@@ -9,3 +9,9 @@ architecture without having to rewrite it. There is still a lot to do. I am a
 big fan of the [Onion Architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/) and 
 the goal of this little project is to eventually grown into an implementation of
 Onion.
+
+I guess I should explain the name. My wife's nick name is Dutchess. She likes to
+watch this crazy cartoon named Archer and the main character, Archer, his code
+name is Dutchess. So, my wife says that her code name is Archer. Well Archer kind
+of reminds me of architecture so it was only natural to name it Archer and the
+code name of the first release is Dutchess...make sense right?
