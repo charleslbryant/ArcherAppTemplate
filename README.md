@@ -1,9 +1,11 @@
-I have a standard way of setting up most projects I work on. This folder 
+This started as a standard way of setting up most projects I work on. The folder 
 structure provides a quick template to get an empty solution working. When I am
 less busy and lazy I will create a Visual Studio template for this. Then I can 
 get a new project up with this structure just by creating a new solution.
 
-Maybe worthwhile to have gitignore and settings.stylecop as nuget packages. Then
-I can maintain them in a central location and include them on any project I'm 
-working on. Just have to remember if I use the nuget way, not to update or I will
-loose all customizations that I make for a project.
+I also started on some core interfaces and infrastructure that is common across
+projects. The goal is that I can include these projects and get the base core
+architecture without having to rewrite it. There is still a lot to do. I am a
+big fan of the [Onion Architecture](http://jeffreypalermo.com/blog/the-onion-architecture-part-1/) and 
+the goal of this little project is to eventually grown into an implementation of
+Onion.
